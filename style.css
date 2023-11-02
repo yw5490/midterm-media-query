@@ -191,16 +191,23 @@ p {
 
     p {
         font-size: 15px;
-        margin-bottom: 10%;
     }
 
     .paragraphTitle {
         font-size: 28px;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .imageTitle {
         font-size: 23px;
         margin-top: 2%;
+    }
+
+    .text {
+        margin-bottom: 10%;
+    }
+
+    .imageLeft {
+        order: 2;
     }
 }
