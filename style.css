@@ -155,4 +155,52 @@ p {
     max-width: 90%;
 }
 
+@media only screen and (max-width: 480px)
+{
+    .title {
+        font-size: 100px;
+        margin-top: 25%;
+    }
 
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .subtitle:hover {
+        font-size: 33px;
+    }
+
+    .navbar {
+        padding: 2%;
+    }
+
+    .navbar a {
+        font-size: 25px;
+        padding: 1% 2%;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin-top: 20%;
+        margin-bottom: 0%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+
+    .paragraphTitle {
+        font-size: 28px;
+        margin-top: 10%;
+    }
+
+    .imageTitle {
+        font-size: 23px;
+        margin-top: 2%;
+    }
+}
